@@ -1,0 +1,28 @@
+c)
+#include <stdio.h>
+
+int main() {
+    int n, y;
+    int soma, sub, mult, resto;
+    float divi;
+
+    printf("Informe o primeiro valor: ");
+    scanf("%d", &n);
+
+    printf("Informe o segundo valor: ");
+    scanf("%d", &y);
+
+    soma = n + y;
+    sub = n - y;
+    mult = n * y;
+    divi = n / y;
+    resto = n % y;
+
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", sub);
+    printf("Multiplicação: %d\n", mult);
+    printf("Divisão: %.2f\n", divi);
+    printf("Resto da divisão: %d\n", resto);
+
+    return 0;
+} 
